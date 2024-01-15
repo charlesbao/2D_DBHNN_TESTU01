@@ -1,0 +1,39 @@
+x = 0.007400; y = 0.006390;
+g11 = 2.000000; g12 = 2.000000; g21 = -2.000000; g22 = 2.000000; e = 0.800000;
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                 Starting FIPS_140_2
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+
+============== Summary results of FIPS-140-2 ==============
+
+ Generator:        DHNN
+ Number of bits:   20000
+
+       Test          s-value        p-value    FIPS Decision
+ --------------------------------------------------------
+ Monobit              10030           0.34       Pass
+ Poker                 8.77           0.89       Pass
+
+ 0 Runs, length 1:     2532                      Pass
+ 0 Runs, length 2:     1262                      Pass
+ 0 Runs, length 3:      595                      Pass
+ 0 Runs, length 4:      365                      Pass
+ 0 Runs, length 5:      145                      Pass
+ 0 Runs, length 6+:     135                      Pass
+
+ 1 Runs, length 1:     2505                      Pass
+ 1 Runs, length 2:     1300                      Pass
+ 1 Runs, length 3:      618                      Pass
+ 1 Runs, length 4:      308                      Pass
+ 1 Runs, length 5:      144                      Pass
+ 1 Runs, length 6+:     158                      Pass
+
+ Longest run of 0:       13           0.50       Pass
+ Longest run of 1:       12           0.70       Pass
+ ----------------------------------------------------------
+ All values are within the required intervals of FIPS-140-2
+
+
+

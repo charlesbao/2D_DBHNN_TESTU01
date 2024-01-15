@@ -1,0 +1,841 @@
+x = 0.007097; y = 0.005502;
+g11 = 2.000000; g12 = 2.000000; g21 = -2.000000; g22 = 2.000000; e = 0.600000;
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+          Starting Rabbit:   nb = 4294967296
+          Version: TestU01 1.2.3
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+***********************************************************
+HOST = Linux
+
+DHNN
+
+
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N = 30,  n = 9988288,  r =  0,   s = 32,   L =   38,
+       Sparse =   TRUE
+
+       Number of bits = n = 9988288
+       Number of cells = 2^L =       274877906944
+       Expected number per cell =  1 /  27520.022
+       EColl = n^2 / (2k) =  181.4731098
+       Hashing =   TRUE
+
+       Collision test
+       CollisionOver:   density = n / k =  1 /   27520.02
+       Expected number of collisions = Mu =     181.47
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+POISSON approximation                 :
+Expected number of collisions = N*Mu  :     5444.09
+Observed number of collisions         :     5494
+p-value of test                       :    0.25
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :    8246037565174
+  j =  1                              :        299637652
+  j =  2                              :             5494
+  j =  3                              :                0
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:00:59.93
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = Linux
+
+DHNN
+
+
+snpair_ClosePairsBitMatch test:
+-----------------------------------------------
+   N = 25,  n = 1973790,  r =  0,  t = 2
+
+
+-----------------------------------------------
+Max of all bit distances              :   22.00
+p-value of test                       :    0.50
+
+-----------------------------------------------
+CPU time used                    :  00:00:30.90
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = Linux
+
+DHNN
+
+
+snpair_ClosePairsBitMatch test:
+-----------------------------------------------
+   N = 25,  n = 986895,  r =  0,  t = 4
+
+
+-----------------------------------------------
+Max of all bit distances              :   11.00
+p-value of test                       :    0.04
+
+-----------------------------------------------
+CPU time used                    :  00:00:28.62
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = Linux
+
+DHNN
+
+
+svaria_AppearanceSpacings test:
+-----------------------------------------------
+   N =  1,   Q = 134217728,   K = 134217728,   r = 0,   s = 30,   L = 15
+
+   Sequences of n = (K + Q)L =   4026531840 bits
+   Q = 134217728 initialization blocks
+   K = 134217728 blocks for the test
+   the blocks have L = 15 bits
+
+
+
+-----------------------------------------------
+Normal statistic                      :    0.92
+p-value of test                       :    0.18
+
+-----------------------------------------------
+CPU time used                    :  00:00:24.15
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = Linux
+
+DHNN
+
+
+scomp_LinearComp test:
+-----------------------------------------------
+   N =  1,  n = 141056,  r =  0,    s = 32
+
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   10
+Chi2 statistic for size of jumps      :   15.02
+p-value of test                       :    0.13
+
+
+-----------------------------------------------
+Normal statistic for number of jumps  :    0.84
+p-value of test                       :    0.20
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:11.87
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = Linux
+
+DHNN
+
+
+scomp_LempelZiv test:
+-----------------------------------------------
+   N =  1,  n = 268435456,  r =  0,   s =   32,   k =   28
+
+
+-----------------------------------------------
+Normal statistic                      :   -0.70
+p-value of test                       :    0.76
+
+-----------------------------------------------
+CPU time used                    :  00:00:17.21
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = Linux
+
+DHNN
+
+
+sspectral_Fourier1 test:
+-----------------------------------------------
+   N =  1,  n = 1048576,  r =  0,   s =   32,   k =   20
+
+
+-----------------------------------------------
+Normal statistic                      :   -0.69
+p-value of test                       :    0.76
+
+-----------------------------------------------
+CPU time used                    :  00:00:02.12
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = Linux
+
+DHNN
+
+
+sspectral_Fourier3 test:
+-----------------------------------------------
+   N = 261632,  n = 16384,  r =  0,   s =   32,   k =   14
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.010
+p-value of test                       :    0.41
+
+Kolmogorov-Smirnov- statistic = D-    : 8.52e-3
+p-value of test                       :    0.55
+
+Anderson-Darling statistic = A2       :    0.75
+p-value of test                       :    0.52
+
+-----------------------------------------------
+CPU time used                    :  00:01:20.83
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = Linux
+
+DHNN
+
+
+sstring_LongestHeadRun test:
+-----------------------------------------------
+   N =  1,  n = 600,  r =  0,   s = 32,   L = 7158272
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    8
+Chi-square statistic                  :   10.40
+p-value of test                       :    0.24
+
+-----------------------------------------------
+Global longest run of 1               :   31.00
+p-value of test                       :    0.50
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:40.31
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = Linux
+
+DHNN
+
+
+sstring_PeriodsInStrings test:
+-----------------------------------------------
+   N =  1,  n = 134217728,  r =  0,   s =   31
+
+
+-----------------------------------------------
+Number of degrees of freedom          :  269
+Chi-square statistic                  :  270.00
+p-value of test                       :    0.47
+
+-----------------------------------------------
+CPU time used                    :  00:00:29.01
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = Linux
+
+DHNN
+
+
+sstring_HammingWeight test:
+-----------------------------------------------
+   N =  1,  n = 134217728,  r =  0,   s = 32,   L = 32
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   28
+Chi-square statistic                  :   28.76
+p-value of test                       :    0.42
+
+-----------------------------------------------
+CPU time used                    :  00:00:26.27
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = Linux
+
+DHNN
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 134217728,  r =  0,   s = 32,   L = 32
+
+
+
+-----------------------------------------------
+Normal statistic                      :   -0.91
+p-value of test                       :    0.82
+
+-----------------------------------------------
+CPU time used                    :  00:00:26.29
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = Linux
+
+DHNN
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 67108864,  r =  0,   s = 32,   L = 64
+
+
+
+-----------------------------------------------
+Normal statistic                      :   -1.09
+p-value of test                       :    0.86
+
+-----------------------------------------------
+CPU time used                    :  00:00:26.86
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = Linux
+
+DHNN
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 33554432,  r =  0,   s = 32,   L = 128
+
+
+
+-----------------------------------------------
+Normal statistic                      :    0.14
+p-value of test                       :    0.44
+
+-----------------------------------------------
+CPU time used                    :  00:00:26.57
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = Linux
+
+DHNN
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 134217728,  r =  0,   s = 32,   L = 16,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  265
+Chi-square statistic                  :  260.08
+p-value of test                       :    0.57
+
+-----------------------------------------------
+CPU time used                    :  00:00:27.30
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = Linux
+
+DHNN
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 67108864,  r =  0,   s = 32,   L = 32,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  553
+Chi-square statistic                  :  549.51
+p-value of test                       :    0.53
+
+-----------------------------------------------
+CPU time used                    :  00:00:26.80
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = Linux
+
+DHNN
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 33554432,  r =  0,   s = 32,   L = 64,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          : 1013
+Chi-square statistic                  : 1033.43
+p-value of test                       :    0.32
+
+-----------------------------------------------
+CPU time used                    :  00:00:27.09
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = Linux
+
+DHNN
+
+
+sstring_AutoCor test:
+-----------------------------------------------
+   N =  5,  n = 858993409,  r =  0,   s = 32,   d = 1
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.33
+p-value of test                       :    0.28
+
+Kolmogorov-Smirnov- statistic = D-    :    0.20
+p-value of test                       :    0.60
+
+Anderson-Darling statistic = A2       :    1.02
+p-value of test                       :    0.34
+
+Tests on the sum of all N observations
+Standardized normal statistic         :   0.084
+p-value of test                       :    0.47
+
+Sample variance                       :    3.01
+p-value of test                       :    0.02
+
+-----------------------------------------------
+CPU time used                    :  00:00:26.91
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = Linux
+
+DHNN
+
+
+sstring_AutoCor test:
+-----------------------------------------------
+   N =  5,  n = 858993410,  r =  0,   s = 32,   d = 2
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.14
+p-value of test                       :    0.76
+
+Kolmogorov-Smirnov- statistic = D-    :    0.26
+p-value of test                       :    0.43
+
+Anderson-Darling statistic = A2       :    0.45
+p-value of test                       :    0.79
+
+Tests on the sum of all N observations
+Standardized normal statistic         :    0.54
+p-value of test                       :    0.29
+
+Sample variance                       :    0.71
+p-value of test                       :    0.58
+
+-----------------------------------------------
+CPU time used                    :  00:00:26.79
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = Linux
+
+DHNN
+
+
+sstring_Run test:
+-----------------------------------------------
+   N =  1,  n = 858993459,  r =  0,   s =   32
+
+
+-----------------------------------------------
+Total number of 1 runs:  858993465
+
+Number of degrees of freedom          :   52
+Chi2 statistic for number of runs     :   56.37
+p-value of test                       :    0.32
+
+
+-----------------------------------------------
+Total number of bits:  3435906336
+
+Normal statistic for number of bits   :   -0.81
+p-value of test                       :    0.79
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:32.74
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = Linux
+
+DHNN
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 4194304,  r =  0,    s = 32,    L = 32,    k = 32
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    4
+Chi-square statistic                  :    5.25
+p-value of test                       :    0.26
+
+-----------------------------------------------
+CPU time used                    :  00:00:39.39
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = Linux
+
+DHNN
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 41943,  r =  0,    s = 32,    L = 320,    k = 320
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    3
+Chi-square statistic                  :    1.95
+p-value of test                       :    0.58
+
+-----------------------------------------------
+CPU time used                    :  00:00:45.62
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = Linux
+
+DHNN
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 4096,  r =  0,    s = 32,    L = 1024,    k = 1024
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    3
+Chi-square statistic                  :    2.96
+p-value of test                       :    0.40
+
+-----------------------------------------------
+CPU time used                    :  00:00:57.02
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = Linux
+
+DHNN
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 33554432,  r =  0,   s = 32,   L0 =  128,   L1 =  128
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :   56
+ChiSquare statistic                   :   40.14
+p-value of test                       :    0.95
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :   56
+ChiSquare statistic                   :   65.77
+p-value of test                       :    0.17
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :   64
+ChiSquare statistic                   :   68.01
+p-value of test                       :    0.34
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :   45
+ChiSquare statistic                   :   57.89
+p-value of test                       :    0.09
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   28
+ChiSquare statistic                   :   32.06
+p-value of test                       :    0.27
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:43.59
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = Linux
+
+DHNN
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 4194304,  r =  0,   s = 32,   L0 = 1024,   L1 = 1024
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :  140
+ChiSquare statistic                   :  118.03
+p-value of test                       :    0.91
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :  141
+ChiSquare statistic                   :  132.98
+p-value of test                       :    0.67
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :  512
+ChiSquare statistic                   :  567.79
+p-value of test                       :    0.04
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :  133
+ChiSquare statistic                   :  122.85
+p-value of test                       :    0.73
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   72
+ChiSquare statistic                   :   64.09
+p-value of test                       :    0.74
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:35.48
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = Linux
+
+DHNN
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 428810,  r =  0,   s = 32,   L0 = 10016,   L1 = 10016
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :  360
+ChiSquare statistic                   :  382.36
+p-value of test                       :    0.20
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :  361
+ChiSquare statistic                   :  346.22
+p-value of test                       :    0.70
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          : 5008
+ChiSquare statistic                   : 5021.24
+p-value of test                       :    0.44
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :  356
+ChiSquare statistic                   :  354.30
+p-value of test                       :    0.52
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :  190
+ChiSquare statistic                   :  191.77
+p-value of test                       :    0.45
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:32.09
+
+Generator state:
+
+
+
+
+
+========= Summary results of Rabbit =========
+
+ Version:          TestU01 1.2.3
+ Generator:        DHNN
+ Number of bits:   4294967296
+ Number of statistics:  40
+ Total CPU time:   00:14:12.01
+
+ All tests were passed
+
+
+
